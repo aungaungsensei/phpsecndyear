@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Form Handling</title>
+	</head>
+	<body>
+		<form action="Test.php" method="post" enctype="multipart/form-data">
+			
+			<input type="text" name="txtName" placeholder="Enter Your Name" required/><br><br>
+
+			<textarea name="txaAddress" placeholder="Enter Your Address" required></textarea><br><br>
+
+			<select name="cboCity">
+				<option value="Yangon">Yangon</option>
+				<option value="Mandalay">Mandalay</option>
+				<option value="Naypyidaw">Naypyidaw</option>
+			</select> <br><br>	
+
+			<input type="radio" name="rdoGender" value="Male"> Male<br>
+			<input type="radio" name="rdoGender" value="Female"> Female<br>
+			<input type="radio" name="rdoGender" value="Other"> Other <br><br>
+
+			<input type="checkbox" name="chkVehicle[]" value="Bicycle" checked>Bicycle<br>
+			<input type="checkbox" name="chkVehicle[]" value="Motorcycle">Motorcycle<br>
+			<input type="checkbox" name="chkVehicle[]" value="Car">Car <br><br>
+
+			<input type="file" name="KMD"> <br><br>
+
+			<input type="submit" name="btnSubmit" value="Submit">
+		
+		</form>
+	</body>
+</html>
